@@ -1,0 +1,20 @@
+Package: mypkg
+Title: Covid19 data analysis
+Version: 0.0.0.9000
+Authors@R: 
+    person("Guido", "Maggio", , "guido.maggio@mirai-solutions.com", role = c("aut", "cre"))
+Description: IntroR4 workshop example package
+License: GPL (>= 3)
+Depends: 
+    R (>= 4.2.0)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    dplyr,
+    ggplot2,
+    scales
+Suggests: 
+    roxygen2,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
